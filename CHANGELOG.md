@@ -7,13 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## v0.1.0 - 2026/09/26
+
+### Added
+- Start P0 vulnerabilty management pipeline batch file
+- Start Saltminer data pipeline batch file
+- Instructions for creating, running, viewing and deleting scheduled tasks in README
+
+## v0.0.1 - 2026/09/24
+
 ### Added
 
 - Initial project template: source layout, test scaffolding, CI/CD
   workflows, and contributor documentation.
 
-## [0.1.0] - 2026-09-02
-
-### Added
-
-- Initial release of the template repository.
