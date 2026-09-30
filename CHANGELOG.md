@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## v0.2.1 - 2026/09/30
+
+### Fixed
+- Command example in README to use env vars instead of hardcoded user profile path
+
 ## v0.2.0 - 2026/09/30
 
 ### Added
