@@ -4,10 +4,10 @@ Collection of powershell scripts and batch files used in a Windows environment t
 ## Schedule a task using schtasks.exe in PS or CMD
 ```
 schtasks /Create `
-    /TN "Vulnerability Management Pipeline" `
-    /TR "powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\Automation\run-vulnerability-pipeline.ps1" `
+    /TN "Issues and MAPs Flow" `
+    /TR "powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\Automation\start-issues-and-maps-flow.ps1" `
     /SC DAILY `
-    /ST 06:00 `
+    /ST 07:00 `
     /F
 ```
 * TN - Task Name that appears in Task Scheduler
