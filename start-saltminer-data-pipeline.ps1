@@ -1,8 +1,8 @@
 # start-saltminer-data-pipeline.ps1
 
 
-$AutomationName = "RunRoleAutomations"
-$Version = "1.0.1"
+$AutomationName = "saltminer-bot"
+$Version = "2.0.0"
 
 $UiRobot = "C:\Program Files\UiPath\Studio\UiRobot.exe"
 $BasePackagePath = "$env:USERPROFILE\Documents\Packages"

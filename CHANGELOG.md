@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## v0.3.1 - 2026/09/30
+
+### Added
+- Log forwarder script + rename saltminer data pipeline
+
 ## v0.2.1 - 2026/09/30
 
 ### Fixed
