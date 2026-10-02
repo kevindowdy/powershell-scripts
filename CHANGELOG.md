@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## v0.4.1 - 2026/10/01
+
 ### Added
 - `start-session-login.ps1` wrapper to run Archer `login_setup.py` at log on; README schtasks ONLOGON example
 
