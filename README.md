@@ -31,3 +31,16 @@ schtasks /Query /TN "Vulnerability Management Pipeline" /V /FO LIST
 ```
 schtasks /Delete /TN "Vulnerability Management Pipeline" /F
 ```
+
+
+## Run the Archer login setup at log on
+`start-session-login.ps1` runs `fetch-issues-and-maps-data\login_setup.py` with Python 3.13.
+```
+schtasks /Create `
+    /TN "Session Login" `
+    /TR "powershell.exe -NoProfile -ExecutionPolicy Bypass -File $env:USERPROFILE\Documents\Tools\powershell-scripts\start-session-login.ps1" `
+    /SC ONLOGON `
+    /F
+```
+* Runs only while you are logged on, because `login_setup.py` opens a visible Chrome window
+* `login_setup.py` ends with `input()`, so it still waits for Enter after you sign in
