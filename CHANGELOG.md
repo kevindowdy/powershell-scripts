@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## v0.4.2 - 2026/10/05
+
+### Fixed
+- Automation name in `start-session-login.ps1`
+- `start-issues-and-maps-flow.ps1` 0.2.0 version
+
 ## v0.4.1 - 2026/10/01
 
 ### Added

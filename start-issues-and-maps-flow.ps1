@@ -2,7 +2,7 @@
 
 
 $AutomationName = "issues-and-maps-bot"
-$Version = "0.1.0"
+$Version = "0.2.0"
 
 $UiRobot = "C:\Program Files\UiPath\Studio\UiRobot.exe"
 $BasePackagePath = "$env:USERPROFILE\Documents\Packages"

@@ -1,6 +1,6 @@
 # start-session-login.ps1
 
-$AutomationName = "fetch-issues-and-maps-data-login"
+$AutomationName = "fetch-issues-and-maps-data"
 
 $Python = "C:\Program Files\Python313\python.exe"
 $BasePackagePath = "$env:USERPROFILE\Documents\Tools"
