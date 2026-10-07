@@ -1,14 +1,15 @@
 # start-session-login.ps1
 
-$AutomationName = "fetch-issues-and-maps-data"
+$AutomationName = "session-startup-bot"
+$Version = "1.0.1"
 
-$Python = "C:\Program Files\Python313\python.exe"
-$BasePackagePath = "$env:USERPROFILE\Documents\Tools"
+$UiRobot = "C:\Program Files\UiPath\Studio\UiRobot.exe"
+$BasePackagePath = "$env:USERPROFILE\Documents\Packages"
 
-$Package = "$BasePackagePath\$AutomationName\login_setup.py"
+$Package = "$BasePackagePath\$AutomationName.$Version.nupkg"
 
-Write-Host "Starting $AutomationName login setup..."
+Write-Host "Starting $AutomationName..."
 
-& $Python $Package
+& $UiRobot execute --file $Package
 
 exit $LASTEXITCODE

@@ -11,6 +11,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 - `start-saltminer-data-pipeline.ps1` to v2.1.0
+- `start-session-login.ps1` to run uiath bot with login + keep-alive
+
 
 ## v0.4.2 - 2026/10/05
 
