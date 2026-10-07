@@ -2,7 +2,7 @@
 
 
 $AutomationName = "saltminer-bot"
-$Version = "2.0.0"
+$Version = "2.1.0"
 
 $UiRobot = "C:\Program Files\UiPath\Studio\UiRobot.exe"
 $BasePackagePath = "$env:USERPROFILE\Documents\Packages"
