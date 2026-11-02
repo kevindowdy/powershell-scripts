@@ -10,8 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.7.0] - 2026-11-02
 
 ### Added
-- `start-servicenow-bot.ps1`: runs the `servicenow-bot` package synchronously with daily log file, documented exit codes (0/1/3/4/5) and Pester tests
-- README: 4 AM daily schtasks example, exit-code table and operational notes
+- `start-servicenow-bot.ps1` to run the `servicenow-bot` automation
 
 ## [0.6.0] - 2026-10-06
 
